@@ -11,6 +11,10 @@ A **business-focused analytics platform** for a **telecom company** that:
 ![gif](assets/demo.gif)
 ---
 
+## [CLICK HERE FOR LIVE DEMO](https://ai-driven-customer-retention-system.streamlit.app/)
+
+---
+
 ## Table of Contents
 
 1. [Business Problem](#business-problem)
