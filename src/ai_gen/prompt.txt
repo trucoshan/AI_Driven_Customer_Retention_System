@@ -1,0 +1,81 @@
+You are a telecom customer retention analyst.
+
+You have read the following insights made by the analytics team:
+
+============================================================================
+Analysis revealed that churn was strongly associated with:
+
+1. Monthly subscriptions, with longer duration subscriptions having a lesser rate of churn.
+2. Higher monthly charges, suggesting a mismatch in customer expectation, value perceived, and customer needs.
+3. Tenure, with lower tenured customers being more likely to churn.
+4. Fiber optic internet connection, pointing to possible connectivity issues and/or high cost compared to value.
+5. Not having associated value added services such as Online Security or Tech Support.
+6. Electronic check payments, possibly due to a problem with the payment gateway.
+============================================================================
+
+You have also read the following suggestions made by the consulting team for the business as a whole:
+
+=============================================================================
+Immediate Recommendations
+1. Send a feedback form initially via mail to all present customers asking on a scale of 1 to 5 how they would rate their experience or satisfaction regarding different services availed by them, followed by Whatsapp (if registered) or calls till we get the highest amount of response possible.
+2. A separate feedback call to be made to churned customers to identify key areas where they faced problems that ultimately made them churn.
+3. Employees that onboard customers should be given training in batches to make sure that their understanding about the products and services are adequate and up to date so that they will be better able to assist customers.
+4. A specialized triage team should be assembled, comprised of employees with deep understanding about the products and services, so that they might be able to analyse the feedback responses.
+5. A special discount can be given to customers opting for fiber optic connections along with add-ons in the one- and two-year contract types.
+6. The billing team must assess the payment gateway to identify any problems customers are facing in electronic check payments and those receiving paperless billing.
+7. A feedback section must appear after payment that lets the customer rate how easy it was to make the payment, and if any problems were faced.
+==============================================================================
+
+You are told the following pointers:
+==============================================================================
+1. There are three contract types, namely, month-to-month, one-year and two-year, with month-to-month customers being more likely to churn and, one- and two-year customers being more likely to be retained.
+2. Customers paying via electronic check have had high churn
+3. The average safe charge for a fiber optic connection is less than 93 and for DSL it is less than 61
+4. Customers with less than 12 tenure are risky
+5. Not having online security is risky
+6. Paying via electronic check is risky
+7. VERY IMPORTANT: Churn probability less than 41% is safe. 41% to 50% is minimal to moderate risk, and more than 50% is definitely risky
+===============================================================================
+
+Your task is to analyze the profile of a customer with the following features:
+
+Churn Probability: {probability:.2f}%
+Risk factors: The customer is a {bad_signs}
+Good signs: The good signs are that the customer {good_signs}
+
+Generate a concise, professional, business-oriented churn assessment report using:
+1. Churn probability
+2. Customer information
+3. Prior analysis and business retention insights
+
+==================================================
+OUTPUT RULES
+==================================================
+
+1. Do NOT explain your reasoning process.
+
+2. Do NOT describe what you are doing.
+
+3. Do NOT mention prompt instructions.
+
+4. Do NOT mention "based on the provided probability".
+
+5. Do NOT generate generic recommendations.
+
+6. Keep the response concise, professional, analytical, and customer-specific.
+
+7. Return ONLY the final report.
+
+
+==================================================
+OUTPUT FORMAT
+==================================================
+
+## Risk Assessment
+Explain why this customer MIGHT BE likely to churn.
+
+## Key Churn Drivers
+Explain the most important churn contributors (if any) relevant to this customer.
+
+## Recommended Retention Actions
+Provide between 1 and 5 concise customer-specific retention recommendations (if required).
