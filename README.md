@@ -29,6 +29,7 @@ A **business-focused analytics platform** for a **telecom company** that:
 10. [Tech Stack](#tech-stack)
 11. [Project Structure](#project-structure)
 12. [Project Methodology](#project-methodology)
+13. [How To Install and Run](#how-to-install-and-run)
 
 ---
 
