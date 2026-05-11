@@ -1,0 +1,21 @@
+,vif_score
+Gender_Male,1.0016802344659959
+InternetService_DSL,3.542991790354191
+InternetService_Fiber optic,3.976395623585666
+Contract_Month-to-month,3.554048040005017
+Contract_One year,1.6972329731781417
+PaymentMethod_Bank transfer (automatic),1.784716738334592
+PaymentMethod_Credit card (automatic),1.760407280508817
+PaymentMethod_Electronic check,2.1324415331566042
+SeniorCitizen,1.1514792736880255
+Partner,1.4623632904234123
+Dependents,1.3802610476654353
+PhoneService,1.3546853985665726
+MultipleLines,1.4221696019378194
+OnlineSecurity,1.410764593135193
+OnlineBackup,1.3803952128855994
+DeviceProtection,1.4792553854986725
+TechSupport,1.4812966849270877
+StreamingTV,1.6194436918684583
+StreamingMovies,1.6319572424185464
+Tenure,2.8241588882535025

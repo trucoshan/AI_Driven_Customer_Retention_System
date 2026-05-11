@@ -61,10 +61,6 @@ catboost_info/tmp
 
 catboost_info
 
-notebooks/
-*.csv
-log_reg_l2_regu_diff_c
-
 src/ai_gen/__pycahce__
 *.pyc
 

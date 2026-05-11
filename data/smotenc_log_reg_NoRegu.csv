@@ -1,0 +1,5 @@
+Metric,Mean_Score
+test_accuracy,0.755733333
+test_precision,0.527483901
+test_recall,0.775250836
+test_f1,0.627725729
