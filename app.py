@@ -407,7 +407,7 @@ else:
         if len(churn_risks)>0:
             st.markdown(f"Risk factors are this customer is a {risky}")
         if len(churn_safes)>0:
-            st.markdown(f"Postiive points are the customer {safe}")
+            st.markdown(f"Positive points are the customer {safe}")
         
     else:
         st.markdown("## Insight")
@@ -415,4 +415,4 @@ else:
         if len(churn_risks)>0:
             st.markdown(f"Risk factors however are this customer is a {risky}")
         if len(churn_safes)>0:
-            st.markdown(f"Postiive points are the customer {safe}")
+            st.markdown(f"Positive points are the customer {safe}")
